@@ -1,0 +1,38 @@
+{
+  "name": "@jmc-gtm/claude-gtm-leak-check",
+  "version": "0.2.0",
+  "description": "Read public signals for a domain and print three GTM gaps. Stdlib-only Python. No paid APIs.",
+  "license": "MIT",
+  "author": "JMC Go-to-Market Systems",
+  "homepage": "https://github.com/cmj-hub/claude-gtm-leak-check#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmj-hub/claude-gtm-leak-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmj-hub/claude-gtm-leak-check/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "claude-plugin",
+    "gtm",
+    "leak-check",
+    "geo",
+    "b2b",
+    "cursor-skills",
+    "codex-skills"
+  ],
+  "files": [
+    ".claude-plugin",
+    "skills",
+    "START-HERE.md",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

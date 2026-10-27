@@ -41,6 +41,23 @@ npx skills add cmj-hub/claude-gtm-leak-check --skill '*' -g --full-depth -y -a c
 
 Swap `claude-code` for `cursor`, `codex`, `grok`, `github-copilot`, `windsurf`, `cline`, or `opencode`.
 
+### From npm
+
+The same pack is on npm as [`@jmc-gtm/claude-gtm-leak-check`](https://www.npmjs.com/package/@jmc-gtm/claude-gtm-leak-check), released from this repo's version tags with npm provenance. It has no dependencies and no install scripts.
+
+In a project, for any agent host the skills installer knows (`experimental_sync` is still marked experimental there):
+
+```bash
+npm install -D @jmc-gtm/claude-gtm-leak-check
+npx skills experimental_sync -a claude-code -y
+```
+
+In your own Claude Code plugin marketplace, point an entry at the package:
+
+```json
+{ "name": "gtm-leak-check", "source": { "source": "npm", "package": "@jmc-gtm/claude-gtm-leak-check" } }
+```
+
 ## What you walk out with in 15 minutes
 
 Artifact: three gaps on stdout, or `gtm/leak-check.json` from `--json`.
