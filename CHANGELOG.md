@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 — 2026-10-28
+
+- `plugin.json` homepage pointed at a page that does not exist (404). It now points at this repo.
+
 ## 0.2.0 — 2026-10-10
 
 - Print one to three real gaps. A healthy page can print one. No filler third gap.

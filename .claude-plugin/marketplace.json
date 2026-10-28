@@ -13,7 +13,7 @@
       "source": "./",
       "description": "Read public signals for a domain and print three GTM gaps.",
       "category": "productivity",
-      "version": "0.2.0"
+      "version": "0.2.1"
     }
   ]
 }

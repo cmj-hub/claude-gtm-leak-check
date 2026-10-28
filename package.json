@@ -1,6 +1,6 @@
 {
   "name": "@jmc-gtm/claude-gtm-leak-check",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Read public signals for a domain and print three GTM gaps. Stdlib-only Python. No paid APIs.",
   "license": "MIT",
   "author": "JMC Go-to-Market Systems",
